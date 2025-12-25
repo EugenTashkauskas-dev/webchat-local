@@ -2543,6 +2543,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/ws@npm:^8":
+  version: 8.18.1
+  resolution: "@types/ws@npm:8.18.1"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: 10c0/61aff1129143fcc4312f083bc9e9e168aa3026b7dd6e70796276dcfb2c8211c4292603f9c4864fae702f2ed86e4abd4d38aa421831c2fd7f856c931a481afbab
+  languageName: node
+  linkType: hard
+
 "@types/yargs-parser@npm:*":
   version: 21.0.3
   resolution: "@types/yargs-parser@npm:21.0.3"
@@ -3025,6 +3034,7 @@ __metadata:
     "@types/jest": "npm:^30.0.0"
     "@types/node": "npm:^22.10.7"
     "@types/supertest": "npm:^6.0.2"
+    "@types/ws": "npm:^8"
     dotenv: "npm:^16.4.7"
     eslint: "npm:^9.18.0"
     eslint-config-prettier: "npm:^10.0.1"
@@ -3043,6 +3053,7 @@ __metadata:
     tsconfig-paths: "npm:^4.2.0"
     typescript: "npm:^5.7.3"
     typescript-eslint: "npm:^8.20.0"
+    ws: "npm:^8.18.3"
   peerDependencies:
     dotenv: ^16.4.7
   languageName: unknown
@@ -9170,7 +9181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:8.18.3":
+"ws@npm:8.18.3, ws@npm:^8.18.3":
   version: 8.18.3
   resolution: "ws@npm:8.18.3"
   peerDependencies:
