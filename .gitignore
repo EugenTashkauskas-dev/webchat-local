@@ -5,3 +5,6 @@ dist
 .env
 *.log
 *.tsbuildinfo
+.yarn
+.vscode
+.idea
